@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo1
+
+  datasource:
+    url: jdbc:mysql://mysql:3306/k8s_db
+    username: root
+    password: "Rohit#2002"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
